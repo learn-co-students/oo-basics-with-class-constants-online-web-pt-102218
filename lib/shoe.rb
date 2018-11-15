@@ -4,7 +4,6 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    #Brand was not found in the array, so shovel in the brand
       if !BRANDS.include?(brand)
        BRANDS << brand
       end
